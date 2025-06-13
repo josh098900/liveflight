@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Flight Tracker Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="filter-controls">
+        <input type="text" id="filter-input" placeholder="Enter Callsign (e.g., BAW123)">
+        <button id="filter-btn">Filter</button>
+        <button id="clear-filter-btn">Show All</button>
+    </div>
+
+    <div id="globe-container"></div>
+
+    <div id="flight-dashboard">
+        <div id="dash-header">
+            <h3>Flight Details</h3>
+            <button id="dash-close-btn">&times;</button>
+        </div>
+        <div id="dash-content">
+            <h2 id="dash-callsign">N/A</h2>
+            <p><strong>Route:</strong> <span id="dash-route">N/A</span></p>
+            <p><strong>Aircraft ID:</strong> <span id="dash-icao">N/A</span></p>
+            <p><strong>Registration:</strong> <span id="dash-reg">N/A</span></p>
+            <p><strong>Aircraft Type:</strong> <span id="dash-model">N/A</span></p>
+            <p><strong>Airline:</strong> <span id="dash-airline">N/A</span></p>
+            <p><strong>Altitude:</strong> <span id="dash-altitude">N/A</span></p>
+            <p><strong>Velocity:</strong> <span id="dash-velocity">N/A</span></p>
+            <p><strong>Vertical Speed:</strong> <span id="dash-vert-speed">N/A</span></p>
+            <p><strong>Squawk:</strong> <span id="dash-squawk">N/A</span></p>
+            <div id="dash-loading">Loading flight details...</div>
+        </div>
+    </div>
+
+    <script src="//unpkg.com/globe.gl"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>

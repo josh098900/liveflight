@@ -1,0 +1,26 @@
+{
+  "name": "liveflight",
+  "version": "1.0.0",
+  "description": "A live flight tracker dashboard built with globe.gl and the OpenSky Network API.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh098900/liveflight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh098900/liveflight/issues"
+  },
+  "homepage": "https://github.com/josh098900/liveflight#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}
