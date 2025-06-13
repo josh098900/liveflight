@@ -6,7 +6,7 @@ A real-time, interactive 3D globe that visualizes live air traffic from around t
 
 ## About This Project
 
-This project was built to provide a visually stunning and data-rich dashboard for aviation enthusiasts. It pulls live flight data from the OpenSky Network API, displays each flight on an interactive 3D globe, and allows users to click on individual flights to get detailed information about their route and the aircraft itself.
+This project was built to provide a dashboard for aviation enthusiasts. It pulls live flight data from the OpenSky Network API, displays each flight on an interactive 3D globe, and allows users to click on individual flights to get detailed information about their route and the aircraft itself.
 
 ## Features
 
@@ -18,7 +18,7 @@ This project was built to provide a visually stunning and data-rich dashboard fo
     * Live Altitude, Velocity, and Vertical Speed
     * Transponder Squawk Code
 * **Emergency Highlighting:** Flights broadcasting an emergency squawk code (7500, 7600, 7700) are automatically highlighted in red for immediate identification.
-* **Flight Path Visualization:** For selected flights with known routes, the full flight path is drawn as an arc across the globe, with markers for the departure and arrival airports.
+* **Flight Path Visualisation:** For selected flights with known routes, the full flight path is drawn as an arc across the globe, with markers for the departure and arrival airports.
 * **Callsign Filtering:** Users can filter the flights shown on the globe by searching for a specific callsign.
 
 
